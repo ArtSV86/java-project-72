@@ -2,7 +2,6 @@ package hexlet.code.util;
 
 import java.net.URL;
 
-
 public class NormalizedData {
     public static String getNormalizedURL(URL url) {
         String protocol = url.getProtocol();
