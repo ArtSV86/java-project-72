@@ -2,7 +2,7 @@ FROM eclipse-temurin:20-jdk
 
 WORKDIR /app
 
-COPY / .
+COPY /app.
 
 RUN ./gradlew installDist
 
