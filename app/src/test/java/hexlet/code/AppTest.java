@@ -92,8 +92,6 @@ public final class AppTest {
         });
     }
 
-
-
     @Test
     public void testPagePage() throws SQLException {
         var url = new Url("https://www.example.com", new Timestamp(System.currentTimeMillis()));
