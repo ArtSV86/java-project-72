@@ -15,5 +15,4 @@ public class UrlPage extends BasePage {
     private  String name;
     private  Timestamp createdAt;
     private  List<UrlCheck> urlChecks;
-
 }

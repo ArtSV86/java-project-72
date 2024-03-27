@@ -4,7 +4,11 @@ import hexlet.code.model.UrlCheck;
 
 import java.sql.SQLException;
 import java.sql.Statement;
-import java.util.*;
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Optional;
+import java.util.Map;
+import java.util.HashMap;
 
 public final class UrlCheckRepository extends BaseRepository {
     public static void save(UrlCheck urlCheck) throws SQLException {
